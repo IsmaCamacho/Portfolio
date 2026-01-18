@@ -4,34 +4,32 @@ import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
 import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
 
 export const proyectos = [
-    {
-    titulo: "Vintage Tone",
-    imagen: VintageTone.src,
-    tecnologias: ["Vue.js", "Tailwind", "Express", "MongoDB"],
-    demo: "https://vintage-tone-front-vue.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/VintageTone-Front-Vue.git",
-    categoria: "fullstack",
+  {
+    titulo: "Hogwarts App",
+    imagen: VintageTone.src, 
+    tecnologias: ["Kotlin", "Android Studio", "XML", "SQL"],
+    demo: "https://github.com/IsmaCamacho/Desafio1-Hogwarts-PMDM", 
+    codigo: "https://github.com/IsmaCamacho/Desafio1-Hogwarts-PMDM",
   },
   {
-    titulo: "React Tiendita",
-    imagen: ReactEcommerce.src,
-    tecnologias: ["React", "Tailwind", "Node.js" ,"Express", "MongoDB", "jwt"],
-    demo: "https://react-e-commerce-three-phi.vercel.app",
-    codigo: "https://github.com/Lautaro-R-collins/React-E-commerce.git",
+    titulo: "MiColorNote",
+    imagen: VintageTone.src, // Recuerda cambiar esto por una captura de la app
+    tecnologias: ["Kotlin", "Android Studio", "Firebase", "Compose"],
+    demo: "https://github.com/IsmaCamacho/MiColorNote", 
+    codigo: "https://github.com/IsmaCamacho/MiColorNote",
   },
   {
-    titulo: "E-commerce Urban Style",
-    descripcion: "Descripción breve del proyecto 1.",
-    imagen: urbanStyle.src,
-    tecnologias: ["React", "Tailwind", "Firebase"],
-    demo: "https://proyecto-final-rodriguez-sable.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ProyectoFinal-Rodriguez.git",
+    titulo: "TrainWell",
+    imagen: VintageTone.src, 
+    tecnologias: ["Kotlin", "NoSQL", "Firebase", "Compose"],
+    demo: "https://github.com/IsmaCamacho/TrainWell", 
+    codigo: "https://github.com/IsmaCamacho/TrainWell",
   },
   {
-    titulo: "API REST para Ecommerce",
-    imagen: "https://miro.medium.com/1*47S4iWVwTicFkFL4-Z4uAA.png",
-    tecnologias: ["Express", "Node.js", "MongoDB", "Mongoose"],
-    demo: "https://react-e-commerce-three-phi.vercel.app/",
-    codigo: "https://github.com/Lautaro-R-collins/ApiRest-Ecommerce.git",
+    titulo: "SGC - Gestión de Cursos",
+    imagen: VintageTone.src, 
+    tecnologias: ["C#", "SQLServer", ".NET"],
+    demo: "https://github.com/IsmaCamacho/SGCursosFormacionIsmaelCamacho", 
+    codigo: "https://github.com/IsmaCamacho/SGCursosFormacionIsmaelCamacho",
   },
 ];

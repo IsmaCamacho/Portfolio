@@ -11,8 +11,7 @@ export default function NotificationBell() {
     { id: 1, text: "Nuevo proyecto publicado 🚀", read: false },
     {
       id: 2,
-      text: "Hey como va?, te comento que actualmente estoy aprendiendo desarrollo móvil con React Native",
-      read: false,
+      text: "¡Hola! 👋 Actualmente estoy expandiendo mis habilidades explorando .NET MAUI para el desarrollo de aplicaciones nativas multiplataforma.",      read: false,
     },
   ];
 

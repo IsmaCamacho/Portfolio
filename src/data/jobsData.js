@@ -1,34 +1,25 @@
 export const jobs = [
   {
-    title: "Frontend Developer - Neowyze",
-    time: ["12/2024 - 05/2025"],
-    description:
-      "Mis tareas en Neowyze consisten en desarrollar webs responsivas basadas en diseños proporcionados en Figma, utilizando Astro, React, Tailwind y otras librerías frontend.",
+    title: "Junior Software Developer - Indra",
+    time: ["Feb 2025 - Mar 2025"],
+    description: "Prácticas como parte de la formación académica en entorno profesional:",
     list: [
-      "Para el flujo de trabajo, utilizo Jira como herramienta de gestión y Git/GitHub como sistema de control de versiones.",
-      "Trabajo bajo la metodología ágil Scrum, con sprints de 2 semanas y dos reuniones diarias (dailies) para planificar el proyecto y presentar avances",
+      "Asistencia a charlas técnicas sobre programación y desarrollo de software",
+      "Introducción a conceptos de bases de datos y gestión de datos",
+      "Revisión de flujos de trabajo de desarrollo utilizados en entornos empresariales",
+      "Familiarización con entornos profesionales de IT y dinámicas de equipo"
     ],
   },
   {
-    title: "Frontend Developer - Vegna",
-    time: ["05/2024 - 02/2024"],
-    description: "Desarrollo y mantenimiento de interfaces de usuario con:",
-    list: ["JavaScript - TypeScript", "React - Next.js", "Tailwind", "Shadcn"],
-  },
-  {
-    title: "Frontend Developer - Igrowker",
-    time: ["07/2022 - 08/2022"],
-    description: "Desarrollo y mantenimiento de interfaces de usuario con",
-    list: ["React - React Router - Context api - CSS - Material UI"],
-  },
-  {
-    title: " Web Developer - NoCountry",
-    time: ["03/2022 - 06/2022"],
-    description:
-      "Desarrollo de aplicaciones web responsivas MVP fullstack usando para su desarrollo tecnologías como",
+    title: "Junior Software Developer (Proyectos Académicos)",
+    time: ["Sept 2024 - Actualidad"],
+    description: "Desarrollo de aplicaciones multiplataforma como parte de proyectos académicos y personales",
     list: [
-      "Frontend : React - React Router - Context api - tailwindcss",
-      "Backend : API REST con Express.js, MongoDB",
+      "Android nativo con Jetpack Compose y Kotlin",
+      "Servicios Backend con Ktor y Firebase Firestore",
+      "Aplicaciones de escritorio y lógica de negocio con C# (.NET)",
+      "Diseño y acceso a bases de datos (SQL Server, MySQL, Oracle, PostgreSQL)",
+      "Control de versiones con Git y principios de Clean Code"
     ],
   },
 ];
