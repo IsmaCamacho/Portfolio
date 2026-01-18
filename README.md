@@ -1,64 +1,51 @@
-# 🌌 Personal Portfolio – Ismael 
+# 👨‍💻 Personal Portfolio
+
+✨ **Under Development**
 
 ---
 
-## 🚀 Características principales
+## ✨ Description
 
-- ⚡️ Construido con **Astro** y **React** 
-- 🎨 **Diseño responsive**
-- 🧠 **Filtrado dinámico de proyectos**
-- 💬 Secciones personalizables: *Sobre mí*, *Proyectos*, *Experiencia*, *Contacto*  
+Desarrollado con **Astro**, **JavaScript** y **Tailwind CSS**, este portfolio presenta una estructura responsiva y moderna diseñada para mostrar mi trayectoria como desarrollador de software. 
+El sitio está optimizado para dispositivos móviles y enfocado en resaltar mis proyectos de desarrollo multiplataforma y mi formación técnica.
 
 ---
 
-## 🧩 Tecnologías utilizadas
+## 🛠️ Technologies and Tools
 
-- [Astro](https://astro.build/)  
-- [TailwindCSS](https://tailwindcss.com/)  
-- [TypeScript / JavaScript]  
-- [React (en componentes selectivos)]  
-- [Vite](https://vitejs.dev/)  
+* **Frontend:** Astro, JavaScript, Tailwind CSS
+* **Backend & Mobile:** Kotlin (Jetpack Compose), C# (.NET), Java
+* **Databases:** SQL Server, MySQL, Oracle, PostgreSQL, Firebase
+* **Tools:** Git, Docker, Postman, Linux
+
+---
+
+## 🌐 Live Demo
+
+Puedes ver el portfolio en vivo en el siguiente enlace:
+
+🔗 **[View Portfolio Online](https://portfolio-ics.vercel.app)**
+
+*No requiere descarga: simplemente abre el enlace en tu navegador para explorar la interfaz, el diseño responsivo y las secciones de proyectos.*
 
 ---
 
-## 📂 Estructura del proyecto
+## 💼 Experience Highlight
 
-
-
-## 🚀 Project Structure
-
-Inside of your Astro project, you'll see the following folders and files:
-
-```text
-/
-├── public/
-│ └── images/ # Recursos estáticos
-├── src/
-│ ├── components/ # Componentes reutilizables
-│ ├── layouts/ # Layout base
-│ ├── pages/ # Páginas principales (index, proyectos, etc.)
-│ ├── scripts/ # JS para interactividad (filtro, animaciones)
-│ ├── styles/ # CSS global o módulos
-│ └── data/ # Datos (proyectos, experiencia)
-└── astro.config.mjs
-```
-
-To learn more about the folder structure of an Astro project, refer to [our guide on project structure](https://docs.astro.build/en/basics/project-structure/).
-
-## 🧞 Commands
-
-All commands are run from the root of the project, from a terminal:
-
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+Actualmente compaginando mi formación superior con el entorno profesional:
+* **Junior Software Developer en Indra:** Prácticas enfocadas en desarrollo profesional, bases de datos y flujos de trabajo empresariales.
+* **Proyectos Académicos (FP Dual):** Desarrollo de aplicaciones nativas Android con Jetpack Compose y servicios backend con Ktor.
 
 ---
-![Portfolio](https://github.com/user-attachments/assets/8c01d06f-2d36-46c1-a3ff-a6f7bf73ab67)
 
+## 📬 Contact
 
+Si quieres ponerte en contacto conmigo, no dudes en hacerlo a través de:
+
+* **Email:** [isma.cama.sanc@gmail.com](mailto:isma.cama.sanc@gmail.com)
+* **GitHub:** [IsmaCamacho](https://github.com/IsmaCamacho)
+* **LinkedIn:** [Ismael Camacho](https://www.linkedin.com/in/ismacamacho)
+
+---
+
+⭐ *Consistency and the desire to learn make the difference.*
