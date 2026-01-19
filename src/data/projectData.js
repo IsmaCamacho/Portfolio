@@ -1,4 +1,4 @@
-import hogwartsImage from "../assets/img-projects/hogwarts.jpg";
+import HogwartsImage from "../assets/img-projects/Hogwarts.jpg";
 import TrainWellImage from "../assets/img-projects/TrainWell.png";
 import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
 
@@ -7,7 +7,7 @@ export const proyectos = [
     titulo: "Hogwarts App",
     descripcion:
       "Aplicación Android nativa que gestiona el universo de Harry Potter. Implementa lógica de filtrado avanzado, gestión de estados de vista y una interfaz de usuario dinámica siguiendo las guías de Material Design. Proyecto enfocado en la modularización y eficiencia del código en Kotlin.",
-    imagen: hogwartsImage.src, 
+    imagen: HogwartsImage.src, 
     stack: "Kotlin - Android SDK - View Binding - Material Components - Git",
     tecnologias: ["Kotlin", "Android Studio", "XML", "SQL"],
     demo: "https://github.com/IsmaCamacho/Desafio1-Hogwarts-PMDM", 

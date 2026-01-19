@@ -1,11 +1,11 @@
-import hogwartsImage from "../assets/img-projects/hogwarts.jpg";
+import HogwartsImage from "../assets/img-projects/Hogwarts.jpg";
 import TrainWellImage from "../assets/img-projects/TrainWell.png";
 import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
 
 export const proyectos = [
   {
     titulo: "Hogwarts App",
-    imagen: hogwartsImage.src, 
+    imagen: HogwartsImage.src, 
     tecnologias: ["Kotlin", "Android Studio", "XML", "SQL"],
     demo: "https://github.com/IsmaCamacho/Desafio1-Hogwarts-PMDM", 
     codigo: "https://github.com/IsmaCamacho/Desafio1-Hogwarts-PMDM",
