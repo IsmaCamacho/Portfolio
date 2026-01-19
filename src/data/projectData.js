@@ -1,3 +1,5 @@
+import hogwartsImage from "../assets/img-projects/hogwarts.jpg";
+import TrainWellImage from "../assets/img-projects/TrainWell.png";
 import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
 
 export const proyectos = [
@@ -5,7 +7,7 @@ export const proyectos = [
     titulo: "Hogwarts App",
     descripcion:
       "Aplicación Android nativa que gestiona el universo de Harry Potter. Implementa lógica de filtrado avanzado, gestión de estados de vista y una interfaz de usuario dinámica siguiendo las guías de Material Design. Proyecto enfocado en la modularización y eficiencia del código en Kotlin.",
-    imagen: VintageTone.src, 
+    imagen: hogwartsImage.src, 
     stack: "Kotlin - Android SDK - View Binding - Material Components - Git",
     tecnologias: ["Kotlin", "Android Studio", "XML", "SQL"],
     demo: "https://github.com/IsmaCamacho/Desafio1-Hogwarts-PMDM", 
@@ -27,7 +29,7 @@ export const proyectos = [
     titulo: "TrainWell",
     descripcion:
       "Sistema integral de gestión para centros de entrenamiento. Desarrollado en Kotlin, este proyecto implementa una arquitectura robusta para el control de usuarios, rutinas y planes de entrenamiento, enfocándose en la integridad de los datos y la lógica de negocio del lado del servidor.",
-    imagen: VintageTone.src, 
+    imagen: TrainWellImage.src, 
     stack: "Java - JDBC - MySQL - Programación Orientada a Objetos - Entornos de Desarrollo",
     tecnologias: ["Kotlin", "NoSQL", "Firebase", "Compose"],
     demo: "https://github.com/IsmaCamacho/TrainWell", 

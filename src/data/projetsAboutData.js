@@ -1,12 +1,11 @@
-import urbanStyle from "../assets/img-projects/urbanStyle.png";
-import imgNote from "../assets/img-projects/note-app.png";
-import ReactEcommerce from "../assets/img-projects/ecommers.jpg";
+import hogwartsImage from "../assets/img-projects/hogwarts.jpg";
+import TrainWellImage from "../assets/img-projects/TrainWell.png";
 import VintageTone from "../assets/img-projects/vintageToneApp.jpg";
 
 export const proyectos = [
   {
     titulo: "Hogwarts App",
-    imagen: VintageTone.src, 
+    imagen: hogwartsImage.src, 
     tecnologias: ["Kotlin", "Android Studio", "XML", "SQL"],
     demo: "https://github.com/IsmaCamacho/Desafio1-Hogwarts-PMDM", 
     codigo: "https://github.com/IsmaCamacho/Desafio1-Hogwarts-PMDM",
@@ -20,7 +19,7 @@ export const proyectos = [
   },
   {
     titulo: "TrainWell",
-    imagen: VintageTone.src, 
+    imagen: TrainWellImage, 
     tecnologias: ["Kotlin", "NoSQL", "Firebase", "Compose"],
     demo: "https://github.com/IsmaCamacho/TrainWell", 
     codigo: "https://github.com/IsmaCamacho/TrainWell",
