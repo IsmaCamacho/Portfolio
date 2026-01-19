@@ -19,7 +19,7 @@ export const proyectos = [
   },
   {
     titulo: "TrainWell",
-    imagen: TrainWellImage, 
+    imagen: VintageTone, 
     tecnologias: ["Kotlin", "NoSQL", "Firebase", "Compose"],
     demo: "https://github.com/IsmaCamacho/TrainWell", 
     codigo: "https://github.com/IsmaCamacho/TrainWell",
