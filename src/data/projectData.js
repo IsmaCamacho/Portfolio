@@ -29,7 +29,7 @@ export const proyectos = [
     titulo: "TrainWell",
     descripcion:
       "Sistema integral de gestión para centros de entrenamiento. Desarrollado en Kotlin, este proyecto implementa una arquitectura robusta para el control de usuarios, rutinas y planes de entrenamiento, enfocándose en la integridad de los datos y la lógica de negocio del lado del servidor.",
-    imagen: VintageTone.src, 
+    imagen: TrainWellImage.src, 
     stack: "Java - JDBC - MySQL - Programación Orientada a Objetos - Entornos de Desarrollo",
     tecnologias: ["Kotlin", "NoSQL", "Firebase", "Compose"],
     demo: "https://github.com/IsmaCamacho/TrainWell", 
