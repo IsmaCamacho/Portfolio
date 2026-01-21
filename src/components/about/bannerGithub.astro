@@ -1,6 +1,9 @@
 ---
 const githubUrl = "https://github.com/IsmaCamacho";
-const imageUrl = "/github.png";
+// 1. Traemos la base del config
+const base = import.meta.env.BASE_URL; 
+// 2. La unimos al nombre del archivo (SIN la palabra 'public')
+const imageUrl = `${base}/github.png`;
 ---
 
 <section class="mt-16 flex justify-center px-4">
