@@ -19,7 +19,6 @@ const technologies = [
 <div class="relative overflow-x-hidden px-8 py-8">
   <div class="animate-scroll hover:animate-paused flex w-max gap-12 md:gap-20">
     {
-      // Duplicamos el array para que el scroll sea infinito
       [...technologies, ...technologies, ...technologies].map((tech) => (
         <div class="group flex items-center gap-2 transition-all duration-300">
           <img
@@ -30,7 +29,7 @@ const technologies = [
             height="30"
             loading="lazy"
           />
-          <span class="text-lg font-medium text-white">
+          <span class="text-lg font-medium text-white normal-case">
             {tech.name}
           </span>
         </div>
