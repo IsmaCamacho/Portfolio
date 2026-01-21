@@ -11,4 +11,6 @@ export default defineConfig({
   },
 
   integrations: [react()],
+  site: 'https://ismacamacho.github.io',
+  base: '/Portfolio',
 });
