@@ -46,5 +46,5 @@ export const proyectos = [
     demo: "https://github.com/IsmaCamacho/SGCursosFormacionIsmaelCamacho", 
     codigo: "https://github.com/IsmaCamacho/SGCursosFormacionIsmaelCamacho",
     categoria: "backend", 
-  },
+  }, 
 ];
