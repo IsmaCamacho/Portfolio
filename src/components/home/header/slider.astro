@@ -1,35 +1,37 @@
 ---
 const technologies = [
-  "java", "kotlin", "python", "csharp", "javascript", 
-  "jetpack-compose", "ktor", "hibernate", "dotnet", 
-  "git", "docker", "postman", "linux", "ubuntu", 
-  "firebase", "html5", "css3", "json", "mysql", 
-  "sql-server", "oracle", "postgresql", "firestore"
+  { name: "Java", icon: "java" },
+  { name: "Kotlin", icon: "kotlin" },
+  { name: "Python", icon: "python" },
+  { name: "C#", icon: "csharp" },
+  { name: "JavaScript", icon: "javascript" },
+  { name: "Android", icon: "android" },
+  { name: "Git", icon: "git" },
+  { name: "Docker", icon: "docker" },
+  { name: "MySQL", icon: "mysql" },
+  { name: "PostgreSQL", icon: "postgresql" },
+  { name: "Linux", icon: "linux" },
+  { name: "HTML5", icon: "html5" },
+  { name: "CSS3", icon: "css3" },
 ];
-
-// 1. Declaramos la base igual que en el Footer
-const base = import.meta.env.BASE_URL; 
 ---
 
 <div class="relative overflow-x-hidden px-8 py-8">
   <div class="animate-scroll hover:animate-paused flex w-max gap-12 md:gap-20">
     {
-      technologies.concat(technologies, technologies).map((tech) => (
+      // Duplicamos el array para que el scroll sea infinito
+      [...technologies, ...technologies, ...technologies].map((tech) => (
         <div class="group flex items-center gap-2 transition-all duration-300">
           <img
-            src={`${base}/svg/${tech}.svg`} 
-            alt={tech}
+            src={`https://cdn.jsdelivr.net/gh/devicons/devicon/icons/${tech.icon}/${tech.icon}-original.svg`}
+            alt={tech.name}
             class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
             width="30"
             height="30"
             loading="lazy"
           />
           <span class="text-lg font-medium text-white">
-            {tech === "csharp" ? "C#" : 
-             tech === "dotnet" ? ".NET" : 
-             tech === "jetpack-compose" ? "Jetpack Compose" :
-             tech === "sql-server" ? "SQL Server" : 
-             tech}
+            {tech.name}
           </span>
         </div>
       ))
