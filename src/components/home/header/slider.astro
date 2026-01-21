@@ -6,16 +6,18 @@ const technologies = [
   "firebase", "html5", "css3", "json", "mysql", 
   "sql-server", "oracle", "postgresql", "firestore"
 ];
+
+// 1. Declaramos la base igual que en el Footer
+const base = import.meta.env.BASE_URL; 
 ---
 
 <div class="relative overflow-x-hidden px-8 py-8">
   <div class="animate-scroll hover:animate-paused flex w-max gap-12 md:gap-20">
     {
       technologies.concat(technologies, technologies).map((tech) => (
-        /* --- AQUÍ VA EL BLOQUE QUE ME HAS PASADO --- */
         <div class="group flex items-center gap-2 transition-all duration-300">
           <img
-            src={`/svg/${tech}.svg`} 
+            src={`${base}/svg/${tech}.svg`} 
             alt={tech}
             class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
             width="30"
@@ -30,7 +32,6 @@ const technologies = [
              tech}
           </span>
         </div>
-        /* ------------------------------------------- */
       ))
     }
   </div>
@@ -38,20 +39,13 @@ const technologies = [
 
 <style is:global>
   @keyframes scroll {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(-50%);
-    }
+    from { transform: translateX(0); }
+    to { transform: translateX(-50%); }
   }
   .animate-scroll {
     animation: scroll 60s linear infinite;
   }
-
   @media (min-width: 768px) {
-    .animate-scroll {
-      animation-duration: 80s;
-    }
+    .animate-scroll { animation-duration: 80s; }
   }
 </style>
