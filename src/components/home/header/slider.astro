@@ -3,12 +3,12 @@ const technologies = [
   "Java",
   "Kotlin",
   "Python",
-  "C#",
+  "csharp",           // Antes "C#"
   "JavaScript",
-  "Jetpack Compose",
+  "jetpack-compose",  // Antes "Jetpack Compose"
   "Ktor",
   "Hibernate",
-  ".NET",
+  "dotnet",           // Antes ".NET"
   "Git",
   "Docker",
   "Postman",
@@ -19,11 +19,10 @@ const technologies = [
   "CSS3",
   "Json",
   "MySQL",
-  "SQL Server",
+  "sql-server",       // Antes "SQL Server"
   "Oracle",
   "PostgreSQL",
   "Firestore",
-
 ];
 ---
 
@@ -31,19 +30,25 @@ const technologies = [
   <div class="animate-scroll hover:animate-paused flex w-max gap-12 md:gap-20">
     {
       technologies.concat(technologies, technologies).map((tech) => (
+        /* --- AQUÍ VA EL BLOQUE QUE ME HAS PASADO --- */
         <div class="group flex items-center gap-2 transition-all duration-300">
           <img
-            src={`/svg/${tech}.svg`}
+            src={`/svg/${tech}.svg`} 
             alt={tech}
-            class="h-7 w-auto object-contain  transition-transform group-hover:scale-110"
+            class="h-7 w-auto object-contain transition-transform group-hover:scale-110"
             width="30"
             height="30"
             loading="lazy"
           />
           <span class="text-lg font-medium text-white">
-            {tech.charAt(0).toUpperCase() + tech.slice(1)}
+            {tech === "csharp" ? "C#" : 
+             tech === "dotnet" ? ".NET" : 
+             tech === "jetpack-compose" ? "Jetpack Compose" :
+             tech === "sql-server" ? "SQL Server" : 
+             tech}
           </span>
         </div>
+        /* ------------------------------------------- */
       ))
     }
   </div>
